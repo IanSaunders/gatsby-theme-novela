@@ -52,7 +52,7 @@ module.exports = async ({ actions: { createPage }, graphql }, themeOptions) => {
     basePath = '/',
     authorsPath = '/authors',
     authorsPage = true,
-    pageLength = 6,
+    pageLength = 30,
     sources = {},
     mailchimp = '',
   } = themeOptions;
